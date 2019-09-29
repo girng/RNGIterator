@@ -2,6 +2,8 @@
 
 Calculates the amount of iterations needed for a chance to be true in [Crystal](https://crystal-lang.org/).
 
+The cool thing about iterations is.. they could MEAN ANYTHING! A monster being killed, an item applying a modifier based on chance on another item, on kill chances, on hit chances, drop rates, etc. Very powerful!
+
 
 ## Usage
  - crystal RNGIterator.cr --release
