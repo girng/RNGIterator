@@ -4,7 +4,7 @@ Calculates the amount of iterations needed for a chance to be true in [Crystal](
 
 Iterations can help a developer when brainstorming and implementing certain game mechanics. Some examples: what to do after a monster was killed, the chance of an item applying a modifier based on chance on another item, on kill chances, on hit chances, chance for an item to drop, chance of an entity appearing in a generated map, etc. The developer having a general estimate of how many iterations are required for certain things can be very powerful.
 
-The closer a developer understands randomess, the better our lives will become. I hope this helps! 
+The closer a developer understands randomness, the better our lives will become. I hope this helps! 
 
 
 ## Usage
