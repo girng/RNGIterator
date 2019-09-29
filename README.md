@@ -13,4 +13,4 @@ Calculates the amount of iterations needed for a chance to be true in [Crystal](
 
 Feel free to contribute to make this script better! All PRs are welcome.
 
-Thanks for reading, and have a wonderful day!
+Thanks for stopping by, and have a wonderful day!
