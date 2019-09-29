@@ -1,3 +1,5 @@
+require "colorize"
+
 class RNGIterator
   property tests = Array(Array(Int32 | Float64)).new
 
@@ -21,8 +23,22 @@ class RNGIterator
     average = tests.sum do |e|
       e[0]
     end / tests.size
-    pp "#{average} iterations were needed   for a #{"%0.10f" % tests[0][1]}% chance to become true."
+
+    string = Array(String).new
+
+    string << "#{"-----------------------------------------------------------------------------------------------------------------".colorize(:magenta)}"
+    string << "Test Run                    Iterations Needed"
+    string << "#{"-----------------------------------------------------------------------------------------------------------------".colorize(:magenta)}"
+    tests.each_with_index do |muffin, i|
+      string << "#{i + 1}. (#{muffin[1]}%)                  #{muffin[0]}".colorize(:green).to_s
+    end
+
+    puts string.join("\n")
+
+    puts "#{"-----------------------------------------------------------------------------------------------------------------".colorize(:magenta)}"
+
+    puts "Total: #{average} iterations were needed for a #{"%0.10f" % tests[0][1]}% chance to become true."
   end
 end
 
-RNGIterator.new(0.005, 5)
+RNGIterator.new(0.01, 5)
