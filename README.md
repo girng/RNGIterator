@@ -1,6 +1,6 @@
 # RNGIterator
 
-Calculates the amount of iterations needed for a chance to be true in [Crystal](https://crystal-lang.org/)
+Calculates the amount of iterations needed for a chance to be true in [Crystal](https://crystal-lang.org/).
 
 
 ## Usage
