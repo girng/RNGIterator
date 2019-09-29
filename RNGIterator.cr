@@ -37,7 +37,7 @@ class RNGIterator
 
     puts "#{"-----------------------------------------------------------------------------------------------------------------".colorize(:magenta)}"
 
-    puts "Total: #{average} iterations were needed for a #{"%0.10f" % tests[0][1]}% chance to become true."
+    puts "On average, a total of #{average} iterations were needed for a #{"%0.10f" % tests[0][1]}% chance to become true."
   end
 end
 
